@@ -1,0 +1,22 @@
+evidence-capture-app/
+├─ app.py
+├─ pyproject.toml
+├─ requirements.txt
+├─ README.md
+├─ core/
+│  ├─ settings.py
+│  ├─ db.py
+│  ├─ metadata.py
+│  ├─ exporter.py
+│  ├─ capture.py
+│  ├─ annotate.py
+│  └─ word_writer.py
+├─ ui/
+│  └─ dialogs.py
+├─ plugins/
+│  ├─ issue_plugins_base.py
+│  └─ jira_plugin_stub.py
+├─ assets/
+│  └─ .gitkeep
+└─ tests/
+   └─ test_smoke.py
